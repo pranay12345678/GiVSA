@@ -2,9 +2,9 @@
 A novel stochastic search variable selection algorithm in normal linear regression problems, termed as group informed variable selection algorithm (GiVSA), which uses the known group structure efficiently to explore the model space without discarding any covariate based on an initial screening.
 
 # Markov Chain:
-mcmc.r is our gGiVSA algorithm.
-Hash.cpp is just to reduce runtime for the mcmc algorithm.
-Inputs:
+mcmc.r is our gGiVSA algorithm.//
+Hash.cpp is just to reduce runtime for the mcmc algorithm.//
+Inputs://
     a. y, X : The response and design matrix.
     b. M : The paramter to control neighborhood size, default value is infinity which implies that the neighborhhod size only dpend on the size of the group (M plays no role on when assigned this default value).
     c. N : The number of iterations of MCMC.
